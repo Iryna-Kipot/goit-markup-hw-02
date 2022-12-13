@@ -1,0 +1,29 @@
+:root { --primary-brand: #4D5AE5;
+--body-text: #434455;}
+
+ul {list-style: none;}
+
+body {color: var(--body-text);
+background-color: #E5E5E5;}
+
+.hero {color: #FFFFFF;
+    background-color: #2E2F42;}
+
+.page {background-color: #FFFFFF;}
+
+.team {background-color: #F4F4FD;}
+
+.bottom {background-color: #2E2F42;}
+
+.text {color: #E7E9FC;}
+
+.topic {color: #2E2F42;}
+
+.site-nav a {color: #2E2F42;}
+
+.site-nav a:hover, .site-nav a:focus {color: var(--primary-brand);}
+
+.site-contact a {color: var(--body-text);}
+
+.site-contact a:hover, .site-contact a:focus {color: var(--primary-brand);}
+
