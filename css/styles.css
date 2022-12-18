@@ -1,29 +1,107 @@
 :root { --primary-brand: #4D5AE5;
---body-text: #434455;}
+--body-text: #434455;
+--Headings: #2E2F42;}
 
 ul {list-style: none;}
 
+a {text-decoration: none;}
+
 body {color: var(--body-text);
-background-color: #E5E5E5;}
+background-color: #FFFFFF;
+font-family: 'roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;}
+
+.top-logo {color: #2E2F42;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;}
+
+.style-logo {color: var(--primary-brand);}
+
+.site-nav {color: var(--Headings);
+font-weight: 500;}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: #434455;
+}
+
+.site-nav:active { color: var(--primary-brand)}
+
+.site-contact {
+    color: var(--body-text);
+}
+
+.site-contact:hover,
+.site-contact:focus {
+    color: var(--primary-brand);
+}
+
+.main-title {font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;}
 
 .hero {color: #FFFFFF;
     background-color: #2E2F42;}
 
-.page {background-color: #FFFFFF;}
+.button {color: #FFFFFF;
+    background-color: var(--primary-brand);
+font-weight: 500;
+line-height: 19px;
+cursor: pointer;}
+
+.button:hover,
+.button:focus {background-color: var(--primary-brand);}
+
+.button:active {background-color: #404BBF;}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 .team {background-color: #F4F4FD;}
+
+.topic {
+    color: var(--Headings);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.our-team {background-color: #FFFFFF;}
+
+.logo {color: #F4F4FD;;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;}
 
 .bottom {background-color: #2E2F42;}
 
 .text {color: #E7E9FC;}
 
-.topic {color: #2E2F42;}
+.filter {color: #4D5AE5;
+background-color: #F4F4FD;
+font-weight: 500;}
 
-.site-nav a {color: #2E2F42;}
+.filter:hover,
+.filter:focus {color: #FFFFFF;
+background-color: var(--primary-brand);}
 
-.site-nav a:hover, .site-nav a:focus {color: var(--primary-brand);}
+.filter:active {background-color: #404BBF;}
 
-.site-contact a {color: var(--body-text);}
-
-.site-contact a:hover, .site-contact a:focus {color: var(--primary-brand);}
-
+.paragraph {color: var(--body-text);}
