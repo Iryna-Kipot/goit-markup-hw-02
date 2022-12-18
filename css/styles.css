@@ -14,7 +14,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;}
 
 .top-logo {color: #2E2F42;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
@@ -51,7 +51,7 @@ font-weight: 500;
 
 .button {color: #FFFFFF;
     background-color: var(--primary-brand);
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
@@ -88,7 +88,7 @@ cursor: pointer;}
 .our-team {background-color: #FFFFFF;}
 
 .logo {color: #F4F4FD;;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.2;
@@ -100,7 +100,7 @@ letter-spacing: 0.03em;}
 
 .filter {color: #4D5AE5;
 background-color: #F4F4FD;
-font-family: 'Roboto'sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
